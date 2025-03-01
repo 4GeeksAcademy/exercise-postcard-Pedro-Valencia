@@ -1,0 +1,39 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: blue;
+	font-style: italic;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 55px;
+	height: 55px;
+}
+.postcard-header h1 {
+	width: 325px;
+	height: 55px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child .body-left,
+.body-right {
+	padding: 20px;
+}
+input {
+	border: none;
+	border-bottom: 2px gray;
+}
